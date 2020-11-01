@@ -37,7 +37,7 @@
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.0.4",
+  "libVersion": "2.13.2",
   "appid": "wx912a691435e3985e",
   "projectname": "%E4%BB%A3%E7%A0%81",
   "debugOptions": {
@@ -48,23 +48,23 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
+    "plugin": {
       "list": []
     },
     "game": {
-      "list": []
-    },
-    "plugin": {
       "list": []
     },
     "gamePlugin": {
       "list": []
     },
     "miniprogram": {
-      "list": []
+      "list": [
+        {
+          "name": "pages/profile/profile",
+          "pathName": "pages/profile/profile",
+          "scene": null
+        }
+      ]
     }
   }
 }

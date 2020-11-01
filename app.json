@@ -1,6 +1,31 @@
-  {
-    "pages": [
-      "pages/home/home",
-      "pages/about/about"
-    ]
+{
+  "pages": [
+    "pages/home/home",
+    "pages/about/about",
+    "pages/profile/profile",
+    "pages/category/category"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "我的小程序",
+    "backgroundColor": "#fff000",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "assets/img/tabbar/shouye.png",
+      "selectedIconPath": "assets/img/tabbar/othershouye.png"
+    },
+   {
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "assets/img/tabbar/mine.png",
+      "selectedIconPath": "assets/img/tabbar/othermine.png"
+    }]
   }
+}

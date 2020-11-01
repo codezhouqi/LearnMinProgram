@@ -1,7 +1,1 @@
 /* pages/home/home.wxss */
-.title{
-  color: red;
-}
-.btn{
-  margin: 10px;
-}
